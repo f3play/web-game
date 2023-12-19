@@ -1,0 +1,10 @@
+<svg id="SvgjsSvg1107" width="256" height="256" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs id="SvgjsDefs1108"></defs>
+    <g id="SvgjsG1109">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="256" height="256">
+            <path fill="#d85b53"
+                  d="M12.6 2.2C12.2444 1.93333 11.7556 1.93333 11.4 2.2L7.66667 5H4C3.44772 5 3 5.44772 3 6V12.0557C3 15.4647 4.92602 18.581 7.97508 20.1056L11.5528 21.8944C11.8343 22.0352 12.1657 22.0352 12.4472 21.8944L16.0249 20.1056C19.074 18.581 21 15.4647 21 12.0557V6C21 5.44772 20.5523 5 20 5H16.3333L12.6 2.2Z"
+                  class="color000 svgShape"></path>
+        </svg>
+    </g>
+</svg>

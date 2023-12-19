@@ -1,0 +1,200 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "nftAddress_",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "owner_",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "offset_",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "limit_",
+        "type": "uint256"
+      }
+    ],
+    "name": "nfts",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "id",
+            "type": "uint256"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint32",
+                "name": "element",
+                "type": "uint32"
+              },
+              {
+                "internalType": "uint32",
+                "name": "rarity",
+                "type": "uint32"
+              },
+              {
+                "internalType": "uint32",
+                "name": "attack",
+                "type": "uint32"
+              },
+              {
+                "internalType": "uint32",
+                "name": "defense",
+                "type": "uint32"
+              },
+              {
+                "internalType": "uint32",
+                "name": "level",
+                "type": "uint32"
+              },
+              {
+                "internalType": "uint32",
+                "name": "baseRate",
+                "type": "uint32"
+              },
+              {
+                "internalType": "uint32",
+                "name": "hashRate",
+                "type": "uint32"
+              },
+              {
+                "internalType": "uint256",
+                "name": "bornAt",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct IF3NFT.Attribute",
+            "name": "attribute",
+            "type": "tuple"
+          }
+        ],
+        "internalType": "struct IF3MultiView.NFTView[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "boxAddress_",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "nft_",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "owner_",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "offset_",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "limit_",
+        "type": "uint256"
+      }
+    ],
+    "name": "openBoxHistory",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "owner",
+            "type": "address"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "id",
+                "type": "uint256"
+              },
+              {
+                "components": [
+                  {
+                    "internalType": "uint32",
+                    "name": "element",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "rarity",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "attack",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "defense",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "level",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "baseRate",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint32",
+                    "name": "hashRate",
+                    "type": "uint32"
+                  },
+                  {
+                    "internalType": "uint256",
+                    "name": "bornAt",
+                    "type": "uint256"
+                  }
+                ],
+                "internalType": "struct IF3NFT.Attribute",
+                "name": "attribute",
+                "type": "tuple"
+              }
+            ],
+            "internalType": "struct IF3MultiView.NFTView[]",
+            "name": "nfts",
+            "type": "tuple[]"
+          },
+          {
+            "internalType": "uint256",
+            "name": "openedAt",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IF3MultiView.OpenBoxHistoryView[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
